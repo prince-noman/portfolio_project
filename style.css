@@ -1,0 +1,238 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Oswald", sans-serif;
+}
+.menu {
+	width: 100%;
+	padding: 3% 5% 2% 0;
+}
+nav {
+	float: right;
+}
+nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+nav ul li {
+	float: left;
+	margin-right: 30px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #3c3c3c;
+}
+.hero_section {
+	width: 100%;
+	overflow: hidden;
+	height: 80vh;
+}
+.intro {
+	width: 45%;
+	float: left;
+	padding-left: 5%;
+	padding-top: 12%;
+}
+.intro h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.intro span {
+	color: orange;
+}
+.intro p {
+	font-weight: 300;
+}
+.hire_btn {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 12px 20px;
+	background-image: linear-gradient(
+		170deg,
+		rgb(252, 168, 0),
+		rgb(247, 197, 104)
+	);
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+i.fas.fa-address-card {
+	margin-right: 10px;
+}
+i.fas.fa-download {
+	margin-right: 10px;
+}
+
+.photo {
+	width: 45%;
+	float: right;
+}
+.photo img {
+	width: 60%;
+}
+
+.about {
+	width: 100%;
+	overflow: hidden;
+	height: 100vh;
+}
+.my_photo {
+	float: left;
+	width: 45%;
+}
+.my_photo img {
+	width: 80%;
+	padding-left: 10%;
+}
+.about_content {
+	float: right;
+	width: 45%;
+	padding-right: 10%;
+	padding-top: 10%;
+}
+.about_content h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.about_content p {
+	font-weight: 300;
+	margin-top: 20px;
+}
+.latest_projects {
+	background-color: #f8f9fc;
+	padding: 2% 0px;
+}
+.heading h1 {
+	font-size: 50px;
+	text-align: center;
+	margin: 5% 0;
+}
+
+.heading span {
+	color: #f46060;
+}
+.all_projects {
+	padding: 3% 5% 10% 5%;
+	width: 100%;
+	overflow: hidden;
+}
+.project {
+	width: 30%;
+	float: left;
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.project:nth-child(2) {
+	width: 30%;
+	float: left;
+	padding: 15px;
+	margin-left: 5%;
+	background-color: #fff;
+}
+
+.project:nth-child(3) {
+	width: 30%;
+	float: right;
+	padding: 15px;
+	background-color: #fff;
+}
+.project img {
+	width: 100%;
+}
+
+.project h2 {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	color: #363958;
+}
+
+.project p {
+	color: #6c6c6c;
+	font-size: 16px;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+.inquiry {
+	width: 100%;
+	height: 600px;
+	padding: 100px 15% 100px 15%;
+}
+.work {
+	height: 330px;
+	background-image: url(images/Group_33094_1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.work_content {
+	padding: 10%;
+	float: left;
+}
+.work_content h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.chat_btn {
+	float: right;
+	margin: 10%;
+}
+.chat_btn a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 12px 20px;
+	background-image: linear-gradient(
+		170deg,
+		rgb(252, 168, 0),
+		rgb(247, 197, 104)
+	);
+	display: inline-block;
+	border-radius: 5px;
+}
+.footer {
+	margin: 10% 0;
+	text-align: center;
+	padding-bottom: 5%;
+}
+.footer h2 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #696871;
+	text-transform: uppercase;
+}
+.footer h3 {
+	font-size: 30px;
+	color: #363958;
+	margin-bottom: 15px;
+}
+.icons {
+	overflow: hidden;
+	padding: 0 30%;
+}
+.icons ul {
+	list-style: none;
+}
+.icons ul li {
+	float: left;
+}
+.icons ul li:nth-child(2) {
+	float: left;
+	margin-left: 4%;
+}
+.icons ul li:nth-child(3) {
+	float: right;
+}
+.icons ul li img {
+	width: 50%;
+}
