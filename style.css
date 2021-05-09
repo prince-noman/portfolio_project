@@ -8,7 +8,7 @@ body {
 }
 .menu {
 	width: 100%;
-	padding: 3% 5% 2% 0;
+	padding: 3% 5% 4% 0;
 }
 nav {
 	float: right;
@@ -34,7 +34,7 @@ nav ul li a {
 	width: 45%;
 	float: left;
 	padding-left: 5%;
-	padding-top: 12%;
+	padding-top: 10%;
 }
 .intro h1 {
 	font-size: 60px;
@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 .intro span {
-	color: orange;
+	color: #7933ff;
 }
 .intro p {
 	font-weight: 300;
@@ -52,11 +52,7 @@ nav ul li a {
 	text-transform: uppercase;
 	color: #fff;
 	padding: 12px 20px;
-	background-image: linear-gradient(
-		170deg,
-		rgb(252, 168, 0),
-		rgb(247, 197, 104)
-	);
+	background-image: linear-gradient(80deg, #9867f5, #7933ff);
 	display: inline-block;
 	margin-top: 20px;
 	border-radius: 5px;
@@ -74,7 +70,7 @@ i.fas.fa-download {
 	float: right;
 }
 .photo img {
-	width: 60%;
+	width: 75%;
 }
 
 .about {
@@ -94,7 +90,7 @@ i.fas.fa-download {
 	float: right;
 	width: 45%;
 	padding-right: 10%;
-	padding-top: 10%;
+	padding-top: 8%;
 }
 .about_content h1 {
 	font-size: 50px;
@@ -104,6 +100,48 @@ i.fas.fa-download {
 	font-weight: 300;
 	margin-top: 20px;
 }
+
+.services {
+	text-align: center;
+	width: 100%;
+	padding: 5%;
+	overflow: hidden;
+	height: 500px;
+}
+
+.services h4 {
+	font-size: 34px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	color: #7933ff;
+}
+
+.services p {
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 15px;
+}
+.services .fas,
+.far {
+	font-size: 70px;
+	color: #7933ff;
+	transition: all 0.5s;
+}
+
+.service_one {
+	float: left;
+	width: 30%;
+}
+.service_two {
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+}
+.service_three {
+	float: right;
+	width: 30%;
+}
+
 .latest_projects {
 	background-color: #f8f9fc;
 	padding: 2% 0px;
@@ -111,11 +149,11 @@ i.fas.fa-download {
 .heading h1 {
 	font-size: 50px;
 	text-align: center;
-	margin: 5% 0;
+	margin: 2% 0;
 }
 
 .heading span {
-	color: #f46060;
+	color: #7933ff;
 }
 .all_projects {
 	padding: 3% 5% 10% 5%;
